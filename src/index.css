@@ -1,0 +1,49 @@
+/* Reset y normalización básica */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding: 1.5rem;
+}
+
+/* Barra de navegación */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.nav-button {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-button.active {
+  background-color: #0066cc;
+  color: #ffffff;
+  border-color: #0066cc;
+}
+
+/* Contenido de páginas */
+.page-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
