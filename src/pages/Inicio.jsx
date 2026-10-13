@@ -24,7 +24,7 @@ function Inicio() {
   return (
     <section className="page-content">
       <h2>Inicio</h2>
-      <p>Artículos  de tecnología obtenidos de Dev.to.</p>
+      <p>Artículos de tecnología obtenidos de Dev.to.</p>
 
       {cargando && <p className="status-message">Cargando artículos...</p>}
       {error && <p className="status-message error-message">Error: {error}</p>}
@@ -45,7 +45,7 @@ function Inicio() {
                   <span><strong>Autor:</strong> {art.user?.name || 'Desconocido'}</span>
                   <span> · <strong>Fecha:</strong> {art.readable_publish_date}</span>
                 </p>
-                <p>{art.description}</p>
+                <p className="card-description">{art.description}</p>
                 <a
                   href={art.url}
                   target="_blank"

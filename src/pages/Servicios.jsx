@@ -1,4 +1,3 @@
-// Array local de servicios y habilidades IT (Punto A - TP4)
 const SERVICIOS = [
   {
     id: 1,
@@ -40,7 +39,7 @@ function Servicios() {
             />
             <div className="card-body">
               <h3>{item.titulo}</h3>
-              <p>{item.descripcion}</p>
+              <p className="card-description">{item.descripcion}</p>
               <p className="card-tech">
                 <strong>Tecnologías:</strong> {item.tecnologias}
               </p>

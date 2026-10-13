@@ -8,7 +8,7 @@ function ContactForm() {
   const [values, setValues] = useState(initialValues)
   const [errors, setErrors] = useState({})
   const [touched, setTouched] = useState({})
-  const [status, setStatus] = useState('idle') // idle | sending | success | error
+  const [status, setStatus] = useState('idle')
 
   const handleChange = (event) => {
     const { name, value } = event.target
