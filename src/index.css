@@ -58,7 +58,6 @@ body {
   margin: 0 auto;
 }
 
-/* Grilla y Tarjetas (Punto A y B - TP4) */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
@@ -139,7 +138,6 @@ body {
   color: #c62828;
 }
 
-/* Layout de Contacto y Mapa (Punto C - TP4) */
 .contacto-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
